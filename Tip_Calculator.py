@@ -8,4 +8,4 @@ total_tip_amount = bill * tip_as_percent
 total_bill = bill + total_tip_amount
 bill_per_person = total_bill / people
 final_amount = round(bill_per_person, 2)
-print("{:.2f}".format(final_amount)
+print("{:.2f}".format(final_amount))
