@@ -106,7 +106,7 @@ while not end_of_game:
 
 # By creating  seperate Modules for word list and Stages ASCII  diagrams:
 
-import clear
+
 import random
 
 # TODO-1: - Update the word list to use the 'word_list' from hangman_words.py
