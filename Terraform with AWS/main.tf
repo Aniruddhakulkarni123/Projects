@@ -1,9 +1,8 @@
 provider "aws" {
-  region                   = "us-east-1"
-  access_key = "AKIA6NVXMHRCP26PRPOH"
-  secret_key = "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"
+  shared_config_files      = ["~/.aws/config"]
+  shared_credentials_files = ["~/.aws/credentials"]
+  profile                  = "default"
 }
-
 
 #Create VPC
 resource "aws_vpc" "myvpc" {
